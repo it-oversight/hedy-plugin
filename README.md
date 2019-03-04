@@ -1,2 +1,2 @@
 # hedy-plugin
-Plugin for customization of hedy.rhizomes.net
+Plugin for customization of website

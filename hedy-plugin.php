@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: ITO Plugin for hedy.rhizomes.net
-Description: Site specific code changes for hedy.rhizomes.net
+Plugin Name: ITO Plugin
+Description: Site specific code changes
 */
 /* Start Adding Functions Below this Line */
  

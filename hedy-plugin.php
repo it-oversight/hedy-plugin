@@ -23,6 +23,8 @@ add_filter('pre_get_posts', 'posts_for_current_author');
 
 /* end Only see own posts */
  
+/* Add custom search bar for custom 404 page */
+
 function shapeSpace_display_search_form() {
 	$search_form = '<form method="get" id="search-form-alt" action="'. esc_url(home_url('/')) .'">
 		<input type="text" name="search" id="s" placeholder="Refine Search.." style="width:50%;height:30px;">
@@ -31,6 +33,8 @@ function shapeSpace_display_search_form() {
 }
 add_shortcode('display_search_form', 'shapeSpace_display_search_form');
  
+/* end custom search bar for custom 404 page */
+
 /**
  * Modify the "must_log_in" string of the comment form.
  *
@@ -49,7 +53,7 @@ add_filter( 'comment_form_defaults', function( $fields ) {
 });
 
  
-/* Logged in Users Filter
+/* Logged in Users for Content Filter - (not working yet?)
 
 function ito_stop_guests( $content ) {
     global $post;
